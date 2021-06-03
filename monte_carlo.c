@@ -9,8 +9,8 @@ float mc_pi(int n)
 { int incircle =0;
  for(int i=0;i<n;i++)
  {float x,y,d;
-    x=frandom();
-    y=frandom();
+    x=(float)frandom();
+    y=(float)frandom();
     d=x*x + y*y;
    if(d<=1)
    {incircle++ ;
